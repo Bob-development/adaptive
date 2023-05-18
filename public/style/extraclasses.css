@@ -1,0 +1,40 @@
+.display-flex{
+    display: flex;
+}
+
+.title{
+    font-family: "kaisei";
+    font-size: calc(var(--fs-xl) - 10px);
+    font-weight: 400;
+    color: var(--primary-text-color);
+    margin-bottom: var(--padding-xxl);
+}
+
+.paragraph{
+    font-family: "assistant";
+    font-size: var(--fs-s);
+    font-weight: 400;
+    color: var(--secondary-text-color);
+    margin-bottom: var(--margin-s);
+}
+
+.pad-left{
+    padding-left: calc(var(--padding-xxxl) + 8px);
+}
+
+.pad-left-right{
+    padding-left: calc(var(--padding-xxxl) + 8px);
+    padding-right: var(--padding-xxxl);
+}
+
+.pagex_title{
+    margin-bottom: 60px;
+}
+
+.sub-title{
+    font-family: "assistant";
+    font-size: calc(var(--fs-m) + 4px);
+    font-weight: 400;
+    color: var(--primary-text-color);
+    margin-bottom: var(--margin-m);
+}

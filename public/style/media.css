@@ -1,0 +1,252 @@
+@import url(../style/variables.css);
+@import url(../style/extraclasses.css);
+@import url(../style/fonts.css);
+
+@media (min-width: 320px) and (max-width: 576px){
+    
+#app{
+    width: 100%;
+    background-color: black;
+}
+
+.logo{
+    width: 72px;
+    height: 15px;
+}
+
+.header-nav{
+    display: none;
+}
+
+.header{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger-menu{
+    display: block;
+    width: 18px;
+    height: 10px;
+}
+
+.line{
+    display: block;
+    width: 18px;
+    height: 2px;
+    margin-bottom: 2px;
+}
+
+.page1{
+    padding-left: var(--padding-l);
+    padding-right: var(--padding-l);
+    height: 476px;
+    background-image: url("../images/backgrounds/background-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1026px;
+}
+
+.page1-title{
+    margin-top: calc(var(--margin-xxl) + 4px);
+}
+
+.page1-name{
+    margin-bottom: var(--margin-s);
+    font-size: calc(var(--fs-l) - 5px);
+    font-family: var(--ff-kaisei);
+    width: 253px;
+}
+
+.page1-name_paragraph{
+    font-size: var(--fs-xs);
+}
+
+.page2{
+    padding-left: 0px;
+    height: 165px;
+    background-image: url("../images/backgrounds/background-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: var(--margin-xxl);
+}
+
+.play{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 60px;
+    left: 160px;
+}
+
+.page3{
+    padding-left: var(--padding-l);
+}
+
+.pagex_title{
+    font-size: calc(var(--fs-l) - 5px);
+}
+
+.title__decription{
+    margin-bottom: var(--margin-xxl);
+}
+
+.page3__paragraph{
+    width: 296px;
+}
+
+.about-us{
+    width: 296px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--margin-xxl);
+}
+
+.page4{
+    margin-bottom: var(--margin-xxl);
+    padding-left: var(--padding-l);
+    padding-right: 0px;
+}
+
+.directions{
+    margin-bottom: var(--margin-xxl);
+}
+
+.directions__description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.directions-par{
+    width: 296px;
+}
+
+.max576{
+    display: none;
+}
+
+.more_p{
+    color: rgba(109, 105, 105, 0.5);
+    margin: 0;
+}
+
+.description-image{
+    width: 259px;
+    height: 92px;
+}
+
+.page5{
+    padding-left: var(--padding-l);
+    padding-right: 0;
+    margin-bottom: var(--margin-xxl);
+}
+
+.page5-title{
+    display: flex;
+    justify-content: center;
+    font-size: calc(var(--fs-l) - 5px);
+    width: 200px;
+}
+
+.trainers{
+    width: 296px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: var(--margin-xxl);
+}
+
+.trainer-img{
+    width: 296px;
+    height: 322px;
+    margin-bottom: var(--margin-xs);
+}
+
+.trainer-name{
+    display: flex;
+    justify-content: center;
+}
+
+.more{
+    display: flex;
+    justify-content: end;
+}
+
+.more__wrapper{
+    height: 24px;
+    display: flex;
+    align-items: center;
+    font-family: "assistant";
+    font-size: var(--fs-s);
+    font-weight: 400;
+    color: var(--primary-text-color);
+    margin-right: var(--margin-l);
+}
+
+.read-more{
+    margin-right: var(--margin-xs);
+}
+
+.arrow{
+    width: 30px;
+    height: 8px;
+}
+
+.page6{
+    padding-left: var(--padding-l);
+    padding-right: 0;
+}
+
+.page6-title{
+    font-size: calc(var(--fs-l) - 5px);
+    margin-bottom: var(--margin-m);
+}
+
+.page6__info{
+    width: 296px;
+    height: 211px;
+    display: block;
+    margin-bottom: var(--margin-l);
+}
+
+.upper-ballet, .junior-ballet{
+    padding-left: var(--padding-s);
+    display: block;
+} 
+
+.upper-ballet{
+    width: 296px;
+    height: 211px;
+    padding-top: 142px;
+    padding-bottom: 10px;
+    margin-bottom: var(--margin-m);
+    background: url("../images/groups/upper-ballet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.x-ballet-title{
+    margin-top: 0;
+    margin-bottom: var(--margin-s);
+    font-size: var(--fs-s);
+}
+
+.x-ballet__description {
+    font-size: var(--fs-xs);
+}
+
+.junior-ballet{
+    width: 296px;
+    height: 211px;
+    padding-top: 142px;
+    padding-bottom: 10px;
+    background: url("../images/groups/junior-ballet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+}

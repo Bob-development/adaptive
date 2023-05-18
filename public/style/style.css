@@ -1,0 +1,202 @@
+@import url(../style/variables.css);
+@import url(../style/extraclasses.css);
+@import url(../style/fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    width: 1512px;
+    background-color: black;
+}
+
+.logo{
+    width: 80px;
+    height: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.header{
+    padding-top: 40px;
+}
+
+.burger-menu{
+    display: none;
+}
+
+.header-nav{
+    margin-left: 574px;
+    width: 602px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Kaisei Opti";
+    color: var(--primary-text-color);
+}
+
+.page1{
+    padding-left: var(--padding-xxxl);
+    height: 841px;
+    background-image: url("../images/backgrounds/background-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1900px;
+}
+
+.page1-title{
+    margin-top: calc(var(--margin-xxl) + 4px);
+}
+
+.page1-name{
+    font-size: calc(var(--fs-xl) + 10px);
+    margin-bottom: var(--margin-s);
+    font-size: var(--fs-l);
+    font-family: var(--ff-kaisei);
+}
+
+.page2{
+    padding-left: var(--padding-xxxl);
+    height: 599px;
+    background-image: url("../images/backgrounds/background-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1512px;
+    margin-bottom: var(--margin-xxxl);
+}
+
+.play{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 270px;
+    left: 600px;
+}
+
+.title__decription{
+    margin-bottom: var(--margin-xxl);
+}
+
+.page3__paragraph{
+    width: 692px;
+}
+
+.about-us{
+    width: 1256px;
+    height: 496px;
+    margin-bottom: var(--margin-xxxl);
+}
+
+.page4{
+    margin-bottom: var(--margin-xxxl);
+}
+
+.directions{
+    margin-bottom: var(--margin-xxl);
+}
+
+.directions__description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.directions-par{
+    width: 736px;
+}
+
+.description-image{
+    width: 259px;
+    height: 92px;
+}
+
+.page5-title{
+    display: flex;
+    justify-content: center;
+}
+
+.trainers{
+    width: 1256px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--margin-xxl);
+}
+
+.trainer-img{
+    width: 365px;
+    height: 394px;
+    margin-bottom: var(--margin-xs);
+}
+
+.trainer-name{
+    display: flex;
+    justify-content: center;
+}
+
+.more{
+    display: flex;
+    justify-content: end;
+}
+
+.more__wrapper{
+    height: 24px;
+    display: flex;
+    align-items: center;
+    font-family: "assistant";
+    font-size: var(--fs-s);
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
+
+.read-more{
+    margin-right: var(--margin-xs);
+}
+
+.arrow{
+    width: 30px;
+    height: 8px;
+}
+
+.page6__info{
+    width: 1256px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--margin-xxl);
+}
+
+.upper-ballet, .junior-ballet{
+    padding-left: var(--padding-s);
+} 
+
+.upper-ballet{
+    width: 730px;
+    height: 523px;
+    background: url("../images/groups/upper-ballet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.x-ballet-title{
+    margin-top: 428px;
+}
+
+.junior-ballet{
+    width: 506px;
+    height: 523px;
+    background: url("../images/groups/junior-ballet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@import url(../style/media.css);
